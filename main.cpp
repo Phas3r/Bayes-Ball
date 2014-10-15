@@ -45,7 +45,6 @@ void getmatrix(fstream& Matrix,vector<vector<int> >& graph)
 	else
 		{
 		cout<<" Wrong filename"<<endl;
-		system("Pause");
 		exit(1);
 
 		}
@@ -177,7 +176,5 @@ int main()
 	set<int>::iterator ik;
 	for(ik=J.begin(); ik!=J.end(); ++ik)
 		cout<<*ik<<"  ";
-
-	system("Pause");
 	return 0;
 	}
